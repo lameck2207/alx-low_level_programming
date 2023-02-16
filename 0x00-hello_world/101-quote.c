@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include <unistd.h>
 /**
- * main - prints A c program that prints a line to the starndard erro
- * Return 1 (Successs)
+ * main -Entry
+ * Return: 1
  */
 int main(void)
 {
-        fput("and a piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+        write(1, "and a piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
         return (1);
 }
