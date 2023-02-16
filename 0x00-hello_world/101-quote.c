@@ -1,11 +1,11 @@
+#include<stdio.h>
 #include <unistd.h>
 /**
- * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- * followed by a newline, to standard error.
- * Return: Always 1.
+ * main - prints A c program that prints a line to the starndard erro
+ * Return 1 (Successs)
  */
 int main(void)
 {
-	write(2, "and a piece of art is useful\n", 59);
+	fput("and a piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
